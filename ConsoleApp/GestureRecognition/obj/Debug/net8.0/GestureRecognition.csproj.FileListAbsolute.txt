@@ -1,0 +1,14 @@
+D:\Политех\8 семестр\ТПО (Тестирование программного обеспечения)\ЛР1\Lab1\ConsoleApp\GestureRecognition\bin\Debug\net8.0\GestureRecognition.exe
+D:\Политех\8 семестр\ТПО (Тестирование программного обеспечения)\ЛР1\Lab1\ConsoleApp\GestureRecognition\bin\Debug\net8.0\GestureRecognition.deps.json
+D:\Политех\8 семестр\ТПО (Тестирование программного обеспечения)\ЛР1\Lab1\ConsoleApp\GestureRecognition\bin\Debug\net8.0\GestureRecognition.runtimeconfig.json
+D:\Политех\8 семестр\ТПО (Тестирование программного обеспечения)\ЛР1\Lab1\ConsoleApp\GestureRecognition\bin\Debug\net8.0\GestureRecognition.dll
+D:\Политех\8 семестр\ТПО (Тестирование программного обеспечения)\ЛР1\Lab1\ConsoleApp\GestureRecognition\bin\Debug\net8.0\GestureRecognition.pdb
+D:\Политех\8 семестр\ТПО (Тестирование программного обеспечения)\ЛР1\Lab1\ConsoleApp\GestureRecognition\obj\Debug\net8.0\GestureRecognition.GeneratedMSBuildEditorConfig.editorconfig
+D:\Политех\8 семестр\ТПО (Тестирование программного обеспечения)\ЛР1\Lab1\ConsoleApp\GestureRecognition\obj\Debug\net8.0\GestureRecognition.AssemblyInfoInputs.cache
+D:\Политех\8 семестр\ТПО (Тестирование программного обеспечения)\ЛР1\Lab1\ConsoleApp\GestureRecognition\obj\Debug\net8.0\GestureRecognition.AssemblyInfo.cs
+D:\Политех\8 семестр\ТПО (Тестирование программного обеспечения)\ЛР1\Lab1\ConsoleApp\GestureRecognition\obj\Debug\net8.0\GestureRecognition.csproj.CoreCompileInputs.cache
+D:\Политех\8 семестр\ТПО (Тестирование программного обеспечения)\ЛР1\Lab1\ConsoleApp\GestureRecognition\obj\Debug\net8.0\GestureRecognition.dll
+D:\Политех\8 семестр\ТПО (Тестирование программного обеспечения)\ЛР1\Lab1\ConsoleApp\GestureRecognition\obj\Debug\net8.0\refint\GestureRecognition.dll
+D:\Политех\8 семестр\ТПО (Тестирование программного обеспечения)\ЛР1\Lab1\ConsoleApp\GestureRecognition\obj\Debug\net8.0\GestureRecognition.pdb
+D:\Политех\8 семестр\ТПО (Тестирование программного обеспечения)\ЛР1\Lab1\ConsoleApp\GestureRecognition\obj\Debug\net8.0\GestureRecognition.genruntimeconfig.cache
+D:\Политех\8 семестр\ТПО (Тестирование программного обеспечения)\ЛР1\Lab1\ConsoleApp\GestureRecognition\obj\Debug\net8.0\ref\GestureRecognition.dll
