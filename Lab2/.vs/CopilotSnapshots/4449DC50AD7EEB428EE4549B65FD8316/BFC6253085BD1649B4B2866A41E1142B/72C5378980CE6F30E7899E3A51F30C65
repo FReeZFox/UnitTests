@@ -1,0 +1,58 @@
+﻿using NUnit.Framework;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Firefox;
+using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Guru99Demo
+{
+    public class Guru99Demo
+    {
+        IWebDriver driver;
+
+        [SetUp]
+        public void startBrowser()
+        {
+            var driverDir = @"D:\3rdparty\chrome";
+            var exePath = Path.Combine(driverDir, "chromedriver.exe");
+            if (File.Exists(exePath))
+            {
+                driver = new ChromeDriver(driverDir);
+            }
+            else
+            {
+                try
+                {
+                    // Let Selenium Manager locate or download the driver automatically
+                    driver = new ChromeDriver();
+                }
+                catch (Exception ex)
+                {
+                    Assert.Fail($"ChromeDriver not found at '{exePath}' and automatic start failed: {ex.Message}");
+                }
+            }
+        }
+
+        [Test]
+        public void TestOpenGoogle()
+        {
+            driver.Url = "http://www.google.com";
+        }
+
+        [TearDown]
+        public void closeBrowser()
+        {
+            try
+            {
+                driver?.Quit();
+            }
+            catch { }
+        }
+
+    }
+}

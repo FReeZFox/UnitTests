@@ -1,0 +1,50 @@
+﻿using NUnit.Framework;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Firefox;
+using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Guru99Demo
+{
+    public class Guru99Demo : TestBase
+    {
+        [Test]
+        public void TestOpenGoogle()
+        {
+            driver.Navigate().GoToUrl("http://www.google.com");
+        }
+
+        [Test]
+        public void CssEmailSignUp()
+        {
+            driver.Navigate().GoToUrl("http://demo.guru99.com/test/guru99home/");
+            driver.Manage().Window.Maximize();
+
+            // Store locator values of email text box and sign up button
+            IWebElement emailTextBox = driver.FindElement(By.XPath("//*[@id='philadelphia-field-email']"));
+            IWebElement signUpButton = driver.FindElement(By.XPath("//*[@id='philadelphia-field-submit']"));
+
+            emailTextBox.SendKeys("test123@gmail.com");
+            signUpButton.Click();
+        }
+
+        [Test]
+        public void CssDemoFromGDrive()
+        {
+            // This test reuses the shared driver from TestBase. Do not create a new ChromeDriver here.
+            driver.Navigate().GoToUrl("http://demo.guru99.com/test/guru99home/");
+            driver.Manage().Window.Maximize();
+
+            IWebElement emailTextBox = driver.FindElement(By.XPath("//*[@id='philadelphia-field-email']"));
+            IWebElement signUpButton = driver.FindElement(By.XPath("//*[@id='philadelphia-field-submit']"));
+
+            emailTextBox.SendKeys("test123@gmail.com");
+            signUpButton.Click();
+        }
+    }
+}

@@ -1,0 +1,22 @@
+﻿using NUnit.Framework;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+
+namespace Guru99Demo
+{
+    public class CSSTests : TestBase
+    {
+        [Test]
+        public void CssDemo()
+        {
+            driver.Navigate().GoToUrl("http://demo.guru99.com/test/guru99home/");
+            driver.Manage().Window.Maximize();
+
+            // Adjusted XPath and casing for IWebElement
+            IWebElement link = driver.FindElement(By.XPath("//*[@id='rt-header']//div[2]/div/ul/li[2]/a"));
+            link.Click();
+
+            // Let TearDown handle quitting the browser
+        }
+    }
+}
